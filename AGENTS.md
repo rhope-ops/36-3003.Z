@@ -73,7 +73,7 @@ Chat history, Project files and remembered copies are not authority. If you cann
 
 - Never commit personal data: real names, email addresses, phone numbers, home or work addresses, ID numbers, or the Administrator's job details (git history keeps them for good, and a repo that holds them can never go public). Use a role (for example "the maintainer") and fake sample data. A private repo may put its owner's real name in the `- Owner:` line.
 - Commit with a GitHub noreply address (`ID+USER@users.noreply.github.com`) or the agent's own noreply identity, never a personal email.
-- A `.pii-guard` file at the repo root turns on `scripts/pii_guard.py` in pre-push and the pull-request Action. With it on, a push with no name denylist fails (kit default, 2026-11-11), unless `.pii-guard` has the line `denylist: warn` (starter tier): then the guard warns and still checks every other pattern. What it blocks and where the denylist lives: the header of `scripts/pii_guard.py`. Check with `python3 scripts/pii_guard.py --status` (a count, never names).
+- A `.pii-guard` file at the repo root turns on `scripts/pii_guard.py` in pre-push and the pull-request Action. With it on, a push with no name denylist fails (kit default, 2026-11-11), unless `.pii-guard` has the line `denylist: warn` (starter tier): then the guard warns and still checks every other pattern. The line `profile: dod` in `.pii-guard` adds the DoD tier (the Administrator, 2026-11-15). What each tier blocks and where the denylist lives: the header of `scripts/pii_guard.py`. Check with `python3 scripts/pii_guard.py --status` (a count, a fingerprint and the tier, never names).
 - Never ask for the denylist names in chat, and never commit the denylist: the Administrator adds them in the places docs/FIRST_USE.md lists.
 - When the guard blocks: remove the data, fix the unpushed commit, and push again. Only the Administrator adds allow entries to `.pii-guard`. Never push with `--no-verify`.
 
@@ -151,3 +151,4 @@ The project log records how the project got there (milestones, breakthroughs, mi
 
 <!-- Add rules for this project below. Date each decision by the Administrator, for example "(the Administrator, 2026-11-09)". -->
 - Project log: https://claude.ai/artifact/8auzZBtbZaAzPrxRjfL5xG (private Claude doc; the Administrator, 2026-11-14). This repo is public, so log entries never go in it.
+- No kit sync (the Administrator, 2026-11-15): never run the kit's sync (`sync_baseline.py`) on this repo; it replaces project guards and rules. Port a kit fix by hand, one file at a time, by pull request with review.
