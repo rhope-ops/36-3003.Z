@@ -151,3 +151,4 @@ The project log records how the project got there (milestones, breakthroughs, mi
 
 <!-- Add rules for this project below. Date each decision by the Administrator, for example "(the Administrator, 2026-11-09)". -->
 - Project log: https://claude.ai/artifact/8auzZBtbZaAzPrxRjfL5xG (private Claude doc; the Administrator, 2026-11-14). This repo is public, so log entries never go in it.
+- No kit sync (the Administrator, 2026-11-15): never run the kit's sync (`sync_baseline.py`) on this repo; it replaces project guards and rules. Port a kit fix by hand, one file at a time, by pull request with review.
