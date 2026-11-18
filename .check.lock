@@ -1,6 +1,9 @@
 {
- "commit": "d6d4831028812808d958416b04e2db8b5114c9ab",
+ "commit": "d9937fa829834d23cbc88fafad771ef27e974a9a",
  "files": {
+  ".claude/agents/reviewer.md": "99714a5eda6b9910e3b7c632b1772ce77bf8ce7ab6e62ae05d6a34643300df9a",
+  ".claude/agents/scout.md": "ca159180066f41d534b545518adbbdf357d198e8a680a3396413224b34e84511",
+  ".claude/agents/worker.md": "e13b005c668e40459b0c11d718529e83caeae5307282a4c724799f543f523d81",
   ".claude/rule-tests.md": "71eb0268b21db81e3e665dd1a960326c5725d284488b7869a23c6b16af22e6a5",
   ".claude/skills/audit/SKILL.md": "a42d1219d6f22bc8ca89453cc5037d1319e8bccc49f4fdec08aa17f6d1b2ac1a",
   ".claude/skills/data-change/SKILL.md": "b3ce8a770a5ee9153219434b8e5e9da2d6144d577b6f06081348fb9deba29b68",
@@ -8,7 +11,7 @@
   ".claude/skills/deliver/SKILL.md": "b66e3998c494920c30abde293f8bdbd156e826fc3297d0e1b7540d55f643b5ef",
   ".claude/skills/efficiency/SKILL.md": "6c0b72efa0ddaae10ce9484eea530651c58b8a347b001e27a1c10c2c8998c34d",
   ".claude/skills/handoff/SKILL.md": "81ce22ae3dea3e9139ad39634709382da460abf8101d3a5bf627775c07e544d2",
-  ".claude/skills/kit-update/SKILL.md": "8f60686bf9cc7afa8352c2b7b1f444c078cb5f0f2c060c1538c7812fe5a0fff9",
+  ".claude/skills/kit-update/SKILL.md": "2decd069ff50b7ff10b53749e9f4d48f82dcf00079de5d49cb033b22e84b0ea5",
   ".claude/skills/personal-data/SKILL.md": "b3b9bd111707d0c6544298ca8bbc296ef57c9744da25aa99568f94771535b949",
   ".claude/skills/project-log/SKILL.md": "c4cc48ebfe52fd4e5e86e59f13c7db274299d6bb9fe0cf702512bfd9f88fae4c",
   ".claude/skills/rule-change/SKILL.md": "3033179264f28910403d766f6fe9d40c0ce3e853fa8e30f4b8ee28a0842e3b84",
@@ -17,7 +20,7 @@
   ".github/workflows/check.yml": "edf885905e96cc1e1c2bc4d000f85abf4c25b513763131df979a1aada8af4809",
   "AGENTS.md (kit sections)": "cc61f22d498bbb5a32bcd158c4e8beff181d06a9aefa37d0135785e8d770bd0b",
   "docs/code-standard.md": "9b66f4d84e31ee0efaed5a971953d65206fbea66d68156b1d2b0be8a09957d68",
-  "scripts/bloat_check.py": "8bb4e7d304c05e58ebfb18265e188ca331598f097837529a1c53f60fcff36746",
+  "scripts/bloat_check.py": "e6e7a6886440827c16eb83e90844295d4e0279d6b46308e47a2738e02fefb247",
   "scripts/bloat_check_skills.py": "7204afd4bdc9b39d3aaafd50c2eaf04863abd32a838aa87b17d4da7e6df1bd0e",
   "scripts/bloat_check_test.py": "689a88b5a4a0279f4f1ee0db71e4fbded28bd5cbb605a5089540624a5f96716b",
   "scripts/check.sh": "4dbe4bfe51b3cec144af13ff3754b4b1d82d3c0ec5b1ef11b831e930bc7ae6fd",
@@ -27,7 +30,7 @@
   "scripts/check_content_scan.py": "a01711ee559eb7b22116605ccc2c2b4ab005a79931a8e04c3446db49c730f71a",
   "scripts/check_content_test.py": "bc45c935b66be0bd33724f907a8146ceca6b539ff2c56f5e82702a099538c122",
   "scripts/check_content_test_blocks.py": "4badb0c7451045d19a192ef2679707894caf91055aadb9153a1fe76e358913dc",
-  "scripts/check_lock.py": "204529a8c56831b8ea9ae5742b9c3eb43782ad62a72d7ef40877b9c615c290f2",
+  "scripts/check_lock.py": "32e812ef1a03d8bc4f92d1844c1977528deb5caea6a7a1927c6ce07c8d547586",
   "scripts/check_settings.py": "5b5468e8ad4650fa8e19ae95ea1ee5c59c607af948065e2cdb83142aaae1a0b5",
   "scripts/code_standard.py": "2e59e34f98d7dd8d8322093b78fdcd47e13a0a595238b57e292239d3dd04ef80",
   "scripts/code_standard_docs.py": "3ff31fff3df2a8b0d7453fdbce6d3faadb3819aa85de881de674210622de31f1",
@@ -42,5 +45,5 @@
  },
  "kit": "archimedes_lever",
  "overrides": [],
- "version": "2026.11.19"
+ "version": "2026.11.20"
 }
