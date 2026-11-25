@@ -6,6 +6,7 @@ Newest first. Why the kit defaults are what they are: https://github.com/rhope-o
 
 | Date | Decision | By | Replaces |
 |---|---|---|---|
+| 2026-11-25 | Kit 10.0.0 → 11.1.0 sync (kit a629550, merge commit; tag v11.1.0 not made yet). 11.0.0 MAJOR: role word "the Maintainer" (`--owner "the Maintainer"`; the `- Owner:` line follows; Project rules keep their own words, so older rows here name the Administrator, the same role). `.check`: `dod-security: on` (DoD repo, `profile: dod`), header renewed by `check_settings.py --migrate`; the sync added SECURITY.md, .github/dependabot.yml, .github/workflows/security.yml. Removed the moved `scripts/fulcrum_tokens.py`. No `scripts/code_standard_gate.py`; no hand-written project code over 450 lines. Kept: all project text. | Agent (a recommendation until the Maintainer merges) | — |
 | 2026-11-21 | Kit 6.0.0 → 10.0.0 sync (kit f397b52, no tag yet). Rules changed: README (new), Delegation, Caps and audit (cap 5,500), Instructions people follow (new hard rule). Project text kept. | the Administrator | — |
 | 2026-11-20 | Kit 6.0.0 synced from the merge commit 43ad952 (tag v6.0.0 not made yet): new default 'Skills', `efficiency` merged into `audit`, `data-change` rewritten, `scripts/skill_use.py`; kept: nothing to move (the sync removed no project text; the old `efficiency` skill had no PROJECT.md). | Agent (a recommendation until the owner merges) | — |
 | 2026-11-19 | kit 4.0.0, 2026-11-19 (synced from kit commit c8339c3, tag v4.0.0 not made yet); kept: all project text (nothing removed). | the Administrator | — |
